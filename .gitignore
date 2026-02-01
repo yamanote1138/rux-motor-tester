@@ -1,0 +1,39 @@
+# Claude workspace
+.claude/
+
+# Arduino build files
+*.hex
+*.elf
+*.eep
+*.lss
+*.map
+*.sym
+*.o
+*.d
+
+# Arduino IDE
+.build/
+build/
+*.sublime-workspace
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# MacOS
+.DS_Store
+._*
+
+# Temporary files
+*~
+*.swp
+*.tmp
+
+# Test results
+test_results/
+*.csv
